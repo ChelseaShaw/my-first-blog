@@ -25,7 +25,10 @@ SECRET_KEY = 'i4x*iiu+pd5&jod!!9uvh)n@kw_9hcf%*75kt=f$ma3!#(c^c2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<chelseevix.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1', 
+    'chelseevix.pythonanywhere.com',
+    ]
 
 
 # Application definition
